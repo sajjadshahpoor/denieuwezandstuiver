@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>The Venue</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="The Venue template project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
+<link href="plugins/jquery-datepicker/jquery-ui.css" rel="stylesheet" type="text/css">
+<link href="plugins/jquery-timepicker/jquery.timepicker.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+
+<style>
+  #namepicker::placeholder {
+    color: white;
+    opacity: 1;
+  }
+  #messagepicker::placeholder {
+    color: white;
+    opacity: 1;
+  }
+</style>
+
+</head>
+<body>
+
+<div class="super_container">
+	
+	<!-- Header -->
+
+	<header class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="header_content d-flex flex-row align-items-center justify-content-start">
+						<div class="logo">
+							<a href="index.html">
+								<div>ZANDSTUIVER</div>
+								<div>DE NIEUWE</div>
+							</a>
+						</div>
+						<nav class="main_nav">
+							<ul class="d-flex flex-row align-items-center justify-content-start">
+								<li><a href="index.html">home</a></li>
+								<li><a href="about.html">Over ons</a></li> <!-- Disable for Now 
+								<li><a href="menu.html">menu</a></li>
+								<li><a href="#">delivery</a></li>
+								<li><a href="blog.html">blog</a></li> -->
+								<li><a href="contact.html">contact</a></li>
+							</ul>
+						</nav>
+						<div class="reservations_phone ml-auto" onclick="window.location.href='tel:+32466407090'" style="cursor: pointer;">
+  									Reservaties: +32 466 407 090
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Hamburger -->
+	
+	<div class="hamburger_bar trans_400 d-flex flex-row align-items-center justify-content-start">
+		<div class="hamburger">
+			<div class="menu_toggle d-flex flex-row align-items-center justify-content-start">
+				<span>menu</span>
+				<div class="hamburger_container">
+					<div class="menu_hamburger">
+						<div class="line_1 hamburger_lines" style="transform: matrix(1, 0, 0, 1, 0, 0);"></div>
+						<div class="line_2 hamburger_lines" style="visibility: inherit; opacity: 1;"></div>
+						<div class="line_3 hamburger_lines" style="transform: matrix(1, 0, 0, 1, 0, 0);"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Menu -->
+
+	<div class="menu trans_800">
+		<div class="menu_content d-flex flex-column align-items-center justify-content-center text-center">
+			<ul>
+				<li><a href="index.html">home</a></li>
+				<li><a href="about.html">Over ons</a></li> <!-- Disable for Now 
+				<li><a href="menu.html">menu</a></li>
+				<li><a href="#">delivery</a></li>
+				<li><a href="blog.html">blog</a></li>  -->
+				<li><a href="contact.html">contact</a></li>
+			</ul>
+		</div>
+		<div class="menu_reservations_phone ml-auto" onclick="window.location.href='tel:+32466407090'" style="cursor: pointer;">
+  						Reservaties: +32 466 407 090 </div>
+	</div>
+	
+	<!-- Home -->
+
+	<div class="home">
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/home.jpg" data-speed="0.8"></div>
+		<div class="home_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="home_content text-center">
+							<div class="home_subtitle page_subtitle">De Zandstuiver is</div>
+							<div class="home_title"><h1>Een Uitzonderlijke Ervaring</h1></div>
+							<div class="home_text ml-auto mr-auto">
+								<p>Onze website biedt u een vlotte en gebruiksvriendelijke ervaring, met duidelijke informatie over ons menu, reserveringen, locatie en contactmogelijkheden – alles binnen handbereik.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="scroll_icon"></div>
+	</div>
+
+	<!-- Intro -->
+
+	<div class="intro">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="intro_content">
+						<div class="intro_subtitle page_subtitle">Iets nieuws</div>
+						<div class="intro_title"><h2>Een Uitzonderlijke Ervaring</h2></div>
+						<div class="intro_text">
+							<p>Welkom in ons restaurant, waar smaak en sfeer samenkomen. Geniet van dagverse visgerechten, heerlijke vlees- en vegetarische opties, en een ruime keuze aan dranken in een warme en gezellige omgeving. Onze chef-koks bereiden elk gerecht met passie en kwaliteit. Of u nu langskomt voor een romantisch diner, een familiebijeenkomst of een snelle lunch, wij zorgen voor een onvergetelijke ervaring. Reserveer vandaag nog en ontdek de smaak van echte gastvrijheid.</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xl-4 col-md-6 intro_col">
+							<div class="intro_image"><img src="images/intro_1.jpg" ></div>
+						</div>
+						<div class="col-xl-4 col-md-6 intro_col">
+							<div class="intro_image"><img src="images/intro_2.jpg" ></div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+
+	<!-- Video 
+
+	<div class="video_section">
+		<div class="background_image" style="background-image:url(images/video.jpg)"></div>
+		<div class="video_section_content d-flex flex-column align-items-center justify-content-center text-center">
+			<div class="video_section_title">Food for the soul</div>
+			<div class="video_section_icon"><a class="vimeo video_button" href="https://player.vimeo.com/video/99340873?autoplay=1&loop=1&title=0&autopause=0"><i class="fa fa-play" aria-hidden="true"></i></a></div>
+		</div>
+	</div>
+
+	-->
+
+	<!-- Signature Dish 
+
+	<div class="sig">
+		<div class="sig_content_container">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-7">
+						<div class="sig_content">
+							<div class="sig_subtitle page_subtitle">Something new</div>
+							<div class="sig_title"><h1>Our Signature Dish</h1></div>
+							<div class="rating_r sig_rating rating_r_5"><i></i><i></i><i></i><i></i><i></i></div>
+							<div class="sig_name_container d-flex flex-row align-items-start justify-content-start">
+								<div class="sig_name">Pork Tenderloin marinated in Green Pepper</div>
+								<div class="sig_price ml-auto">$20</div>
+							</div>
+							<div class="sig_content_list">
+								<ul class="d-flex flex-row align-items-center justify-content-start">
+									<li>Pork</li>
+									<li>Tenderloin</li>
+									<li>Green Pepper</li>
+									<li>Veggies</li>
+								</ul>
+							</div>
+							<div class="button sig_button trans_200"><a href="#">Order Now</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="sig_image_container">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-7 offset-lg-5">
+						<div class="sig_image">
+							<div class="background_image" style="background-image:url(images/sig.jpg)"></div>
+							<img src="images/sig.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	-->
+
+	<!-- The Menu -->
+	<!-- The Menu -->
+
+
+
+
+<!-- Reservations -->
+<div class="reservations text-center">
+    <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/reservations.jpg" data-speed="0.8"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="reservations_content d-flex flex-column align-items-center justify-content-center">
+                    <div class="res_stars page_subtitle">5 Sterren</div>
+                    <div class="res_title">Maak een Reservatie</div>
+                    <div class="res_form_container">
+                        <form action="https://formsubmit.co/denieuwezandstuiver@gmail.com" method="POST" id="res_form" class="res_form">
+                            <!-- FormSubmit configuration -->
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_next" value="thank-you.html">
+
+                            <div class="d-flex flex-sm-row flex-column align-items-center justify-content-start">
+                                <input type="text" id="namepicker" name="Naam" class="res_input" required="required" placeholder="Typ alstublieft uw naam!">
+                                <input type="text" id="datepicker" name="Datum" class="res_input" required="required">
+                                <input type="text" name="Tijd" class="res_input timepicker" required="required">
+                                <select name="Aantal Personen" class="res_select" required>
+									<option value="2 personen" selected>2 personen</option>
+									<option value="3 personen">3 personen</option>
+									<option value="4 personen">4 personen</option>
+									<option value="5 personen">5 personen</option>
+									<option value="6 personen">6 personen</option>
+									<option value="7 personen">7 personen</option>
+									<option value="8 personen">8 personen</option>
+									<option value="9 personen">9 personen</option>
+									<option value="10 personen">10 personen</option>
+								</select>
+                            </div>
+
+                            <!-- Message field -->
+                            <div class="mt-3">
+                                <textarea name="Bericht" class="res_input" id="messagepicker" placeholder="Laat een opmerking of verzoek achter (optioneel)" rows="4"></textarea>
+                            </div>
+
+                            <button class="res_button" type="submit">Maak een Reservatie</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>		
+</div>
+
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+
+				<!-- Footer Logo -->
+				<div class="col-lg-3 footer_col">
+					<div class="footer_logo">
+						<div class="footer_logo_title">ZANDSTUIVER</div>
+						<div class="footer_logo_subtitle">DE NIEUWE</div>
+					</div>
+					<div class="copyright">
+					<p style="line-height: 1.2;">Copyright &copy;<script>document.write(new Date().getFullYear());</script> Alle rechten voorbehouden | Ontworpen door <a href="https://cookdata.be/" target="_blank">Cook Data</a></p>
+					</div>
+				</div>
+
+				<!-- Footer About -->
+				<div class="col-lg-6 footer_col">
+					<div class="footer_about">
+						<p>DE NIEUWE ZANDSTUIVER serveert heerlijke visgerechten, verfijnde seizoensspecialiteiten en een ruime
+							 selectie dranken in een warme, gezellige sfeer. Onze keuken combineert kwaliteit met traditie 
+							 en verrast elke gast met pure smaken. Kom langs en geniet van een 
+							 culinaire beleving dicht bij huis. <a href="cookie-policy.html" class="cookie-link">Cookiebeleid</a></p>
+					</div>
+				</div>
+
+				<!-- Footer Contact -->
+				<div class="col-lg-3 footer_col">
+					<div class="footer_contact">
+						<ul>
+							<li class="d-flex flex-row align-items-start justify-content-start">
+								<div><div class="footer_contact_title">Adres:</div></div>
+								<div class="footer_contact_text">Zeedijk 104, 8370 Blankenberge</div>
+							</li>
+							<li class="d-flex flex-row align-items-start justify-content-start">
+								<div><div class="footer_contact_title">Telefoon:</div></div>
+								<div class="footer_contact_text">+32 466 407 090</div>
+							</li>
+							<li class="d-flex flex-row align-items-start justify-content-start">
+								<div><div class="footer_contact_title">E-mail:</div></div>
+								<div class="footer_contact_text">​denieuwezandstuiver@gmail.com</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+
+
+
+<!-- Cookie Consent Popup -->
+<div id="cookieConsent" class="cookie-consent">
+  <div class="cookie-box">
+    <p>We gebruiken cookies om uw ervaring te verbeteren. Lees ons <a href="cookie-policy.html" class="cookie-link">Cookiebeleid</a>.</p>
+    <div class="cookie-buttons">
+      <button id="acceptCookies" class="cookie-btn accept">Accepteren</button>
+      <button id="rejectCookies" class="cookie-btn reject">Weigeren</button>
+    </div>
+  </div>
+</div>
+
+<style>
+  .cookie-consent {
+    position: fixed;
+    bottom: -200px;
+    left: 0;
+    right: 0;
+    background-color: #2d1e17; /* dark coffee */
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    z-index: 9999;
+    transition: bottom 0.5s ease-in-out;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.4);
+  }
+
+  .cookie-box {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .cookie-box p {
+    margin: 0;
+    flex: 1;
+  }
+
+  .cookie-link {
+    color: #d4a373; /* light coffee */
+    text-decoration: underline;
+  }
+
+  .cookie-buttons {
+    display: flex;
+    gap: 10px;
+  }
+
+  .cookie-btn {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 3px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+
+  .cookie-btn.accept {
+    background-color: #d4a373; /* coffee */
+    color: black;
+  }
+
+  .cookie-btn.accept:hover {
+    background-color: #b6864c;
+  }
+
+  .cookie-btn.reject {
+    background-color: #000;
+    color: white;
+    border: 1px solid white;
+  }
+
+  .cookie-btn.reject:hover {
+    background-color: #222;
+  }
+</style>
+
+<script>
+  // Show cookie popup after slight delay
+  window.addEventListener("load", function () {
+    if (!localStorage.getItem("cookieConsent")) {
+      setTimeout(() => {
+        document.getElementById("cookieConsent").style.bottom = "0";
+      }, 1000);
+    }
+  });
+
+  // Handle Accept/Reject
+  document.getElementById("acceptCookies").onclick = function () {
+    localStorage.setItem("cookieConsent", "accepted");
+    document.getElementById("cookieConsent").style.bottom = "-200px";
+  };
+
+  document.getElementById("rejectCookies").onclick = function () {
+    localStorage.setItem("cookieConsent", "rejected");
+    document.getElementById("cookieConsent").style.bottom = "-200px";
+  };
+</script>
+
+<!-- Cookie Consent Ends -->
+
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap-4.1.2/popper.js"></script>
+<script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="plugins/colorbox/jquery.colorbox-min.js"></script>
+<script src="plugins/jquery-datepicker/jquery-ui.js"></script>
+<script src="plugins/jquery-timepicker/jquery.timepicker.js"></script>
+<!-- Footer Contact -->
+<script src="js/custom.js"></script>
+</body>
+</html>
